@@ -28,7 +28,7 @@ public class rearrangeArray {
             }
             int indx = pos.length * 2;
             for(int i = pos.length;i<neg.length;i++){
-                arr[indx] = pos[i];
+                arr[indx] = neg[i];
                 indx++;
             }
         }
@@ -66,4 +66,4 @@ public class rearrangeArray {
         int[] ans2 = rearrangearray(arr);
         printArray(ans2);
     }
-}
+} 
