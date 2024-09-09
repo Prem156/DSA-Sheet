@@ -40,7 +40,7 @@ public class longestSubarray {
     }
     public static void main(String[] args) {
         int[] arr = {1,2,3,1,1,1,1,4,2,3};
-        System.out.println(longestsubarray(arr, 15));
+        System.out.println(longestsubarray(arr, 14));
         System.out.println(longestSub(arr, 9));
     }
 }
