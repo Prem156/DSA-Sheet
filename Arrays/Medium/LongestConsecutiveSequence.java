@@ -17,7 +17,7 @@ public class LongestConsecutiveSequence {
     }
 
     public static void main(String[] args) {
-        int[] arr = { 100, 200, 3, 2, 1, 4 };
+        int[] arr = { 100, 600, 3, 2, 1, 4 };
         consecutiveSequence(arr);
     }
 }
