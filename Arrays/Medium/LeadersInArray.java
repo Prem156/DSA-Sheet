@@ -32,7 +32,7 @@ public class LeadersInArray {
         return ans;
     }
     public static void main(String[] args) {
-        int [] arr = {10,22,12,3,0,6};
+        int [] arr = {11,22,12,3,0,6};
         // ArrayList<Integer> ans = leaders(arr);
         // for(int i =0;i<ans.size();i++){
         //     System.out.print(ans.get(i) + " ");
